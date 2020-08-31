@@ -10,7 +10,7 @@
     </parent>
     <artifactId>bootstrap</artifactId>
     <packaging>jar</packaging>
-    <name>Bootstrap - App Launcher</name>
+    <name>Bootstrap - com.assignment.rest.App Launcher</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -20,6 +20,10 @@
         <dependency>
             <groupId>com.assignment</groupId>
             <artifactId>jpa-adapter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.assignment</groupId>
+            <artifactId>rest-adapter</artifactId>
         </dependency>
 
         <dependency>

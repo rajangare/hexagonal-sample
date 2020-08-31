@@ -12,6 +12,6 @@ public class DemoRestController {
 
     @GetMapping("/hello")
     public ResponseEntity<String> demo() {
-        return new ResponseEntity<String>("Welcome Hexagonal Demo !", HttpStatus.OK);
+        return new ResponseEntity<>("<h2>Welcome Hexagonal Demo !</h2>", HttpStatus.OK);
     }
 }
