@@ -1,2 +1,2 @@
 # hexagonal-sample
-Hexagonal Project
+Hexagonal Sample Project
